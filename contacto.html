@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contacto</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../Pagina Mejia/estilo2.css">
+	 <link rel="shortcut icon" href="img/fas.gif" />
+	<meta name="viewport" content="width=device-width; initial-scale=1.0"> 
+
+</head>
+	<header>
+		<nav id="menu">
+		<center>
+
+		</center>
+		</nav>
+		<div id="linea"></div>
+	</header>
+	<center>
+	<div id="contenedor">
+		<h1>Complete el Formulario y especifique el servicio requerido de nuestra empresa  </h1>
+		<div></div><img src="../Pagina Mejia/Trasporte Mejia.png"</div>
+		<br>
+		<br>
+		<div id="form">
+			<form action="datos2.html" method="post">	
+				<label>Nombre</label>
+				<input type="text" id="nombre" value="" pattern="^[a-zA-Z\s]+$" title="Solo se acepta letras" class="control" placeholder="Nombre" required title="Debes ingresar tu nombre"/>
+				<br>
+				<br>
+				<label>Dirección</label>
+				<input type="text" name="direccion" placeholder="Ingresa tu direccion" title="solo se aceptan direciones"class="ingresa tu direcion" required/>
+				<br>
+				<br>
+				<label>Teléfono</label>
+				<input type="tel" id="telefono" value="" pattern="^[0-9]{4}-?[0-9]{4}$" title="Solo acepta números en el siguiente formato: 2222-2222" class="control" placeholder="Numero de Telefono" required/>
+				<br>
+				<br>
+				<label>E-mail</label>
+				<input type="correo" id="correo" value="" title="Formato de correo: NombreCorreo@dominio" class="control" placeholder="Correo Electronico" required/>
+				<br><br>
+				<label>Mensaje</label>
+				<textarea cols="40" placeholder="Ingresa tu mensaje" required></textarea>
+				<br>
+				<input type=checkbox value="acepto" class="terminos" required/>
+				Acepto la política de privacidad
+				<br><button id="botonf" type="submit">Enviar datos</button>
+				 <input id="botonf" type="reset">
+				<br>
+			</form>
+		</div>
+	<br><br>
+
+		
+	</div>
+	</center>
+	<footer>
+		<div id='social'>
+			<p><br>Marlon Omar Guzman Mejia </p>
+		
+		</div>
+	</footer>
+
+</body>
+</html>
